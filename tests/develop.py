@@ -8,4 +8,5 @@ c = 5
 
 print("develop2")
 
-
+f = 3
+print(f"develop3 {b+f}")
