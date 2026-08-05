@@ -1,4 +1,4 @@
-from feature import d
+from feature import d,w
 
 a = 10
 
@@ -16,3 +16,7 @@ print(f"develop3 {b+f}")
 release = a+b+c+d+f
 
 print(release)
+
+release = release - w
+
+print("hotfix: ", release)
